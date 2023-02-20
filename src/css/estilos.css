@@ -1,5 +1,5 @@
 
-@font-face {
+/* @font-face {
     font-family:'Roboto-thin';
     src:url("/src/fonts/Roboto-Thin.ttf");
 }
@@ -7,12 +7,12 @@
 @font-face {
     font-family: 'Roboto-bold-italic';
     src: url("/src/fonts/Roboto-BoldItalic.ttf");
-}
+} */
 
 
 
 body {
-    font-family: 'Roboto-thin';
+    font-family: 'Roboto';
 }
 
 .cabecalho {
@@ -87,7 +87,7 @@ body {
     font-size: 60pt;
     top:190px;
     left: 100px;
-    font-family: 'Roboto-bold-italic';
+    font-family: 'Roboto';
 
 
 }
