@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-bolditalic';
+    font-family: 'Roboto-bold-italic';
     src: url("/src/fonts/Roboto-BoldItalic.ttf");
 }
 
@@ -87,7 +87,7 @@ body {
     font-size: 60pt;
     top:190px;
     left: 100px;
-    font-family: 'Roboto-bolditalic';
+    font-family: 'Roboto-bold-italic';
 
 
 }
