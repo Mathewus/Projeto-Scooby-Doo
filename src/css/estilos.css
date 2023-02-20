@@ -1,16 +1,4 @@
 
-/* @font-face {
-    font-family:'Roboto-thin';
-    src:url("/src/fonts/Roboto-Thin.ttf");
-}
-
-@font-face {
-    font-family: 'Roboto-bold-italic';
-    src: url("/src/fonts/Roboto-BoldItalic.ttf");
-} */
-
-
-
 body {
     font-family: 'Roboto';
 }
@@ -85,6 +73,7 @@ body {
     position: absolute;
     color: white;
     font-size: 60pt;
+    font-style: italic;
     top:190px;
     left: 100px;
     font-family: 'Roboto';
