@@ -69,26 +69,31 @@ body {
 }
 
 .banner h2{
-
     position: absolute;
     color: white;
-    font-size: 70pt;
+    font-size: 55pt;
     font-style: italic;
-    top:185px;
+    top:145px;
     left: 90px;
     font-family: 'Roboto';
-
-
 }
-.banner #logoscoobert{
 
+.banner hr{
+    width: 150px;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    color: white;
+    top:250px;
+    left: 90px;
+}
+
+/* .banner #logoscoobert{
     position: absolute;
     top: 16em;
-    left: 28em;
-    width: 550px;
+    left: 24em;
+    width: 600px;
     height: 250px;
-    filter: brightness(145%);
-}
+} */
 
 .banner .imagem-fundo {
     width: 100%;
@@ -97,11 +102,10 @@ body {
 }
 
 .gradient {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
+    background: linear-gradient(to left, rgba(189, 187, 187, 0.1), rgba(0, 0, 0, 0.7));
     position: relative;
     margin-top: -755px;
     height: 490px;
-
 }
 
 .cabecalho .menu {
@@ -112,13 +116,11 @@ body {
     z-index: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 70px;
     box-shadow: 3px 3px 3px #9e9e9e;
 }
 
 .cabecalho .menu li a{
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +133,7 @@ body {
     font-size: 15pt;
     color: black;
     padding-top: 20px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 60px;
@@ -145,19 +147,20 @@ body {
 
 
 .informacoes {
+    /* background-color: #d3e760; */
     max-width: 1440px;
     margin: 0 auto;
     padding: 50px;
 }
 
-.informacoes .personagens {
+.mystery-sa .personagens {
     display: flex;
     justify-content: center;
     max-width: 1440px;
     gap: 12px;
 }
 
-.informacoes .personagens div {
+.mystery-sa .personagens div {
     display: flex;
     height: 500px;
     align-items: center;
@@ -172,69 +175,121 @@ body {
     cursor: pointer;
 }
 
-.informacoes #fred {
-    /* background-color: blue; */
+.mystery-sa #fred {
     background-color: #0199DA;
 }
-
-.informacoes #fred img {
+.mystery-sa #fred img {
     width: 200px;
     filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
 }
 
-.informacoes #daphne {
+.mystery-sa #daphne {
     background-color: violet;
     padding-right: 15px;
 }
-
-.informacoes #daphne img {
+.mystery-sa #daphne img {
     width: 92px;
     filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
 }
 
-.informacoes #velma {
+.mystery-sa #velma {
     background-color: brown;
 }
-
-.informacoes #velma img {
+.mystery-sa #velma img {
     width: 170px;
     filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
 }
 
-.informacoes #salsicha {
+.mystery-sa #salsicha {
     background-color: green;
 }
-
-.informacoes #salsicha img {
+.mystery-sa #salsicha img {
     width: 160px;
     filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
 }
 
-.informacoes #scoobydoo {
-    /* background-color: skyblue; */
+.mystery-sa #scoobydoo {
     background-color: #1FBBB8;
     width: 160px;
 }
-
-.informacoes #scoobydoo img {
+.mystery-sa #scoobydoo img {
     width: 130px;
     filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
 }
 
 .informacoes h2 {
     display: flex;
+    font-size: 24pt;
     justify-content: center;
     padding: 20px 20px;
     color: black;
 }
 
 .informacoes .descricao {
-
     width: 700px;
     margin: 0 auto;
     padding-top: 50px;
     font-weight: bold;
-    font-size: 13pt;
+    font-size: 14pt;
     color: black;
     text-align: center;
+}
+
+.informacoes .descricao p{
+    margin: 25px;
+}
+
+.informacoes .villains-gallery{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.villains-gallery .villains{
+    margin: 0 auto;
+}
+
+.villains-gallery .section{
+    display: flex;
+    justify-content: center;
+    width: 780px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 30px;
+    gap: 50px;
+}
+
+.villains-gallery .section h1{
+   font-style: oblique;
+   font-size: 24pt;
+}
+
+.villains-gallery .info{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.villains-gallery div p{
+    width: 420px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    padding: 30px;
+}
+
+.villains-gallery #barba-ruiva{
+    background-color: rgb(231, 50, 50);
+}
+.villains-gallery #cavaleiro-negro{
+    background-color: #84858b;
+}
+.villains-gallery #charlie{
+    background-color: #2E84BD;
+}
+.villains-gallery #feiticeiro{
+    background-color: #E19518;
 }
