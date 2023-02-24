@@ -109,6 +109,7 @@ body {
 }
 
 .cabecalho .menu {
+    /* background-color: #f4c728; */
     background-color: white;
     width: 100%;
     position: fixed;
@@ -151,6 +152,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;
 }
 
 .mystery-sa .personagens {
@@ -240,7 +242,11 @@ body {
 }
 
 .informacoes .villains-gallery{
-    
+    /* background-color: #1FBBB8; */
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -251,45 +257,96 @@ body {
     margin: 0 auto;
 }
 
+.villains .division1, .division2{
+    display: flex;
+}
+
 .villains-gallery .section{
     display: flex;
     justify-content: center;
-    width: 780px;
-    padding: 20px;
-    margin: 40px;
-    border-radius: 30px;
-    gap: 50px;
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+    width: 370px;
+    height: 280px;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.gradient-villains{
+    background: linear-gradient(to bottom, rgba(202, 201, 201, 0.1), rgba(0, 0, 0, 0.9));
+    /* background-color: #0199DA; */
+    margin-top: -32em;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 .villains-gallery .section h1{
-   font-style: oblique;
-   font-size: 24pt;
+    position: relative;
+    top: 240px;
+    left: -90px;
+    color: white;
+   font-size: 15pt;
 }
 
 .villains-gallery .info{
-
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
 }
 .villains-gallery div p{
-    width: 420px;
-    font-size: 12pt;
+    width: 220px;
+    font-size: 10pt;
     font-weight: bold;
     color: white;
-    padding: 30px;
+    padding: 35px;
 }
 
 .villains-gallery #barba-ruiva{
     background-color: rgb(231, 50, 50);
 }
 .villains-gallery #cavaleiro-negro{
-    background-color: #84858b;
+    background-color: #494949;
 }
 .villains-gallery #charlie{
     background-color: #2E84BD;
 }
+.villains-gallery #charlie img{
+    margin-top: -50px;
+}
 .villains-gallery #feiticeiro{
     background-color: #E19518;
+}
+.villains-gallery #feiticeiro img{
+    margin-top: -110px;
+}
+.villains-gallery #rastejador{
+    background-color: #09572c;
+}
+
+.villains-gallery #homens-esqueleto{
+    background-color: #3a0e8a;
+}
+
+.rodape{
+    background-color: rgb(37, 8, 63);
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+
+.logorodape{
+    background-color: rgb(16, 1, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.logorodape .logoS img{
+    width: 90px;
+    height: 90px;
 }
