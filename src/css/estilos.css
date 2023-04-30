@@ -1,0 +1,559 @@
+body {
+    /* font-family: 'Roboto'; */
+    font-family: cursive;
+}
+
+
+/*===============================Cabeçalho=========================== */
+
+#cabecalho {
+    width: 100%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+#cabecalho .nav-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    background-color: #0199DA;
+    height: 80px;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.nav-top .logo {
+    display: flex;
+    justify-content: start;
+}
+
+.nav-top .boxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.nav-top .boxes div {
+    width: 65px;
+    height: 65px;
+    transition: 0.2s;
+}
+
+.nav-top .boxes div:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.nav-top #box-1 {
+    background-color: red;
+}
+
+.nav-top #box-2 {
+    background-color: blue;
+}
+
+.nav-top #box-3 {
+    background-color: green;
+}
+
+.nav-top #box-4 {
+    background-color: yellow;
+}
+
+/*===============================Cabeçalho menu=========================== */
+
+#cabecalho #menu {
+    /* background-color: #f4c728; */
+    background-color: white;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 3px 3px 3px #9e9e9e;
+}
+
+#cabecalho #menu li {
+    display: inline-block;
+    position: relative;
+}
+
+#cabecalho #menu li a {
+    font-size: 15pt;
+    padding: 22px;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    color: #363535;
+    border-bottom: 7px solid #0690;
+    transition: all .2s linear;
+}
+
+
+#cabecalho #menu li:hover a {
+    /* background-color: #3a0e8a; */
+    /* color: #FFFFFF; */
+    border-bottom: 7px solid #490eb6;
+    color: #490eb6;
+}
+
+
+#cabecalho #menu li a i {
+    font-size: 22pt;
+}
+
+#cabecalho #menu li ul {
+    background-color: white;
+    width: 300px;
+    margin-left: -30px;
+    border: 1px solid;
+    display: none;
+    position: absolute;
+}
+
+#cabecalho #menu li:hover ul {
+    display: block;
+}
+
+
+#cabecalho #menu li ul li {
+    display: block;
+}
+
+
+#cabecalho #menu li:hover ul li a {
+    /* background-color: #FFFFFF; */
+    border-bottom: 1px solid;
+    color: #363535;
+    transition: all .2s linear;
+}
+
+#cabecalho #menu li ul li #itemfred:hover {
+    cursor: pointer;
+    background-color: #0199DA;
+    color: #FFFFFF;
+}
+
+#cabecalho #menu li ul li #itemdaph:hover {
+    cursor: pointer;
+    background-color: violet;
+    color: #FFFFFF;
+
+}
+
+#cabecalho #menu li ul li #itemvelma:hover {
+    cursor: pointer;
+    background-color: brown;
+    color: #FFFFFF;
+}
+
+#cabecalho #menu li ul li #itemshaggy:hover {
+    cursor: pointer;
+    background-color: green;
+    color: #FFFFFF;
+}
+
+#cabecalho #menu li ul li #itemscooby:hover {
+    cursor: pointer;
+    background-color: #1FBBB8;
+    color: #FFFFFF;
+}
+
+#cabecalho #menu li ul li #outros:hover {
+    cursor: pointer;
+    background-color: #067775;
+    color: #FFFFFF;
+}
+
+/*===============================Banner=========================== */
+
+.banner {
+    position: relative;
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.banner h2 {
+    position: absolute;
+    color: white;
+    font-size: 55pt;
+    font-style: italic;
+    top: 145px;
+    left: 90px;
+    /* font-family: 'Roboto'; */
+}
+
+.banner hr {
+    width: 150px;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    color: white;
+    top: 250px;
+    left: 90px;
+}
+
+.banner .imagem-fundo {
+    width: 100%;
+    object-fit: cover;
+    height: 750px;
+}
+
+.gradient {
+    background: linear-gradient(to left, rgba(189, 187, 187, 0.1), rgba(0, 0, 0, 0.7));
+    position: relative;
+    margin-top: -755px;
+    height: 490px;
+}
+
+
+/*===============================Conteúdo principal=========================== */
+
+
+.informacoes {
+    width: 100%;
+    /* background-color: red; */
+    padding-bottom: 50px;
+}
+
+
+/*===============================Sessão mystery-sa=========================== */
+
+
+
+.informacoes .mystery-sa {
+    /* background-color: #1b994c; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mystery-sa h2 {
+    font-size: 24pt;
+    padding: 20px 20px;
+    color: black;
+    text-align: center;
+}
+
+.mystery-sa .personagens {
+    /* background-color: #3a0e8a; */
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.mystery-sa .personagens div {
+    display: flex;
+    max-width: 200px;
+    max-height: 500px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.personagens div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.mystery-sa #fred {
+    background-color: #0199DA;
+}
+
+.mystery-sa #fred img {
+    width: 200px;
+    filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
+}
+
+.mystery-sa #daphne {
+    background-color: violet;
+    padding-right: 15px;
+}
+
+.mystery-sa #daphne img {
+    width: 92px;
+    filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
+}
+
+.mystery-sa #velma {
+    background-color: brown;
+}
+
+.mystery-sa #velma img {
+    width: 170px;
+    filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
+}
+
+.mystery-sa #salsicha {
+    background-color: green;
+}
+
+.mystery-sa #salsicha img {
+    width: 160px;
+    filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
+}
+
+.mystery-sa #scoobydoo {
+    background-color: #1FBBB8;
+    width: 200px;
+}
+
+.mystery-sa #scoobydoo img {
+    width: 130px;
+    filter: drop-shadow(5px 0px 0px rgba(0 0 0 / 90%));
+}
+
+
+/*===============================Sessão sinopse=========================== */
+
+.informacoes .sinopse {
+    /* background-color: #e8f71e; */
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13pt;
+    color: black;
+    text-align: justify;
+}
+
+.informacoes .sinopse h2 {
+    margin-bottom: 20px;
+}
+
+.informacoes .sinopse p {
+    width: 85%;
+    margin: 25px;
+}
+
+.informacoes .sinopse img {
+    max-width: 700px;
+}
+
+
+
+/*===============================Sessão villains=========================== */
+
+.informacoes .villains-gallery {
+    /* background-color: #1FBBB8; */
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.informacoes .villains-gallery h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.informacoes .villains {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.villains-gallery .section {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 370px;
+    height: 280px;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.gradient-villains {
+    background: linear-gradient(to bottom, rgba(202, 201, 201, 0.1), rgba(0, 0, 0, 0.9));
+    /* background-color: #0199DA; */
+    margin-top: -32em;
+    width: 200vw;
+    height: 100vh;
+
+}
+
+.villains-gallery .section h1 {
+    position: relative;
+    top: 240px;
+    color: white;
+    font-size: 15pt;
+}
+
+.villains-gallery .info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.villains-gallery .info img{
+    max-width: 75%;
+}
+
+.villains-gallery div p {
+    width: 220px;
+    font-size: 10pt;
+    color: white;
+    padding: 35px;
+}
+
+.villains-gallery #barba-ruiva {
+    background-color: rgb(231, 50, 50);
+}
+
+.villains-gallery #cavaleiro-negro {
+    background-color: #494949;
+}
+
+.villains-gallery #charlie {
+    background-color: #2E84BD;
+}
+
+.villains-gallery #charlie img {
+    margin-top: -50px;
+}
+
+.villains-gallery #feiticeiro {
+    background-color: #E19518;
+}
+
+.villains-gallery #feiticeiro img {
+    margin-top: -110px;
+}
+
+.villains-gallery #rastejador {
+    background-color: #09572c;
+}
+
+.villains-gallery #homens-esqueleto {
+    background-color: #3a0e8a;
+}
+
+
+/*===============================Sessão personagens=========================== */
+
+
+.sobre_personagens {
+    margin-top: 7em;
+    /* background-color: #0199DA; */
+}
+
+.sobre_personagens .descricao_personagem {
+    /* background-color: #09572c; */
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 13pt;
+    color: black;
+    text-align: justify;
+}
+
+
+.descricao_personagem img {
+    max-width: 650px;
+}
+
+/* .descricao_personagem img{
+    width: 75%;
+} */
+
+.descricao_personagem h2 {
+    margin-bottom: 20px;
+}
+
+.descricao_personagem p {
+    width: 85%;
+    margin: 30px;
+}
+
+
+
+.informacoes .versoes {
+    /* background-color: #494949; */
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.informacoes .versoes_personagem {
+    /* background-color: #b82424; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.versoes h2{
+    margin-bottom: 20px;
+}
+
+.versoes .versoes_info{
+    /* background-color: #490eb6; */
+    background-color: rgb(37, 8, 63);
+    color: #FFFFFF;
+    /* border: 5px solid #2efc7d; */
+    /* border: 5px solid #0199DA; */
+}
+
+.versoes .versoes_img {
+    /* border: 5px solid #490eb6; */
+    width: 350px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.versoes .versoes_img img {
+    width: 100%;
+}
+
+
+/*===============================Rodapé=========================== */
+
+.rodape {
+    width: 100%;
+    background-color: rgb(37, 8, 63);
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+
+.logorodape {
+    background-color: rgb(16, 1, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.logorodape .logoS img {
+    width: 90px;
+    height: 90px;
+}

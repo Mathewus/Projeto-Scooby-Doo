@@ -1,0 +1,100 @@
+@media (max-width: 1200px) {
+
+
+    /*======================index======================== */
+
+    .informacoes h2{
+        font-size: 18pt;
+    }
+
+    .mystery-sa .personagens{
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .mystery-sa .personagens div{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .mystery-sa .personagens #scoobydoo{
+        width: 300px;
+    }
+
+    .mystery-sa .personagens img{
+        width: 95%;
+    }
+
+    .mystery-sa .sinopse {
+        /* background-color: orange; */
+        flex-wrap: wrap;
+    }
+
+    .villains-gallery .section{
+        max-width: 100%;
+    }
+
+    .informacoes .sinopse img {
+        width: 95%;
+    }
+
+    /* .villains-gallery .section .info img{
+        max-width: 75%;
+    } */
+
+
+/*======================personagens======================== */
+
+
+    .descricao_personagem img{
+        width: 95%;
+        /* border: 5px solid #490eb6; */
+    }
+
+    .versoes .versoes_info{
+        max-width: 100%;
+    }
+
+    
+    .versoes .versoes_img{
+        max-width: 100%;
+    }
+
+    .versoes .versoes_img img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 617px){
+
+    #cabecalho #menu{
+        background-color: aqua;
+        height: 70px;
+    }
+
+    #cabecalho #menu li{
+        display: none;
+    }
+
+    .mystery-sa .personagens div{
+        height: 190px;
+    }
+    
+    .mystery-sa .personagens h3{
+        margin-top: 200px;
+    }
+
+}
+
+
+@media (max-width: 590px){
+
+    .villains .section img{
+        width: 35%;
+    }
+
+    /* .villains .section h1{
+        font-size: 13pt;
+    } */
+
+}
