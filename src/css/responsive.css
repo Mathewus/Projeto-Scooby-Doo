@@ -12,7 +12,8 @@
         gap: 18px;
     }
 
-    .mystery-sa .personagens div{
+    .mystery-sa .personagens a div{
+        max-width: 100%;
         width: 300px;
         margin-bottom: 10px;
     }
@@ -76,7 +77,7 @@
         display: none;
     }
 
-    .mystery-sa .personagens div{
+    .mystery-sa .personagens a div{
         height: 190px;
     }
     

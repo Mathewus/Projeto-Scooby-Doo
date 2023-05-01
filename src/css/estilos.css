@@ -253,22 +253,27 @@ body {
     gap: 12px;
 }
 
-.mystery-sa .personagens div {
+.mystery-sa .personagens a{
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+
+.personagens a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.mystery-sa .personagens a div {
     display: flex;
-    max-width: 200px;
-    max-height: 500px;
+    width: 200px;
+    height: 450px;
     overflow: hidden;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: white;
-    transition: all 0.2s linear;
 }
 
-.personagens div:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
 
 .mystery-sa #fred {
     background-color: #0199DA;
