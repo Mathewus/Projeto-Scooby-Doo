@@ -1,6 +1,29 @@
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); */
+
+/* font-family: 'Roboto Mono', monospace; */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Comme&family=Cuprum&family=Lato&family=Montserrat&family=Roboto+Mono&family=Source+Sans+Pro&display=swap"); */
+
+/* font-family: 'Cuprum', sans-serif; */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Source+Sans+Pro&display=swap");
+
+/* font-family: 'Lato', sans-serif; */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Lato&family=Montserrat&family=Roboto+Mono&family=Source+Sans+Pro&display=swap");
+
+/* font-family: 'Comme', sans-serif; */
+
+
+
 body {
-    /* font-family: 'Roboto'; */
-    font-family: cursive;
+
+    font-family: 'Comme', sans-serif;
+
 }
 
 
@@ -177,8 +200,10 @@ body {
 
 .banner {
     position: relative;
+    max-width: 1440px;
     width: 100%;
-    max-height: 550px;
+    margin: 0 auto;
+    max-height: 425px;
     overflow: hidden;
     margin-top: 150px;
 }
@@ -204,14 +229,16 @@ body {
 
 .banner .imagem-fundo {
     width: 100%;
-    object-fit: cover;
-    height: 750px;
+    height:680px;
+    /* object-fit: fill; */
+    
 }
 
 .gradient {
     background: linear-gradient(to left, rgba(189, 187, 187, 0.1), rgba(0, 0, 0, 0.7));
     position: relative;
     margin-top: -755px;
+    width: 1440px;
     height: 490px;
 }
 
