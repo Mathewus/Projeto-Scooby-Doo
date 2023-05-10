@@ -35,6 +35,8 @@
         max-width: 100%;
     }
 
+
+
     .informacoes .sinopse img {
         width: 95%;
     }
@@ -66,10 +68,20 @@
     }
 }
 
+@media (max-width: 1080px){
+
+    #cabecalho #menu ul{
+        display: none;
+    }
+
+    #cabecalho #menu .nav-bar{
+        display: block;
+    }
+}
+
 @media (max-width: 617px){
 
     #cabecalho #menu{
-        background-color: aqua;
         height: 70px;
     }
 

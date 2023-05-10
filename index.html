@@ -23,7 +23,8 @@
 
 
 
-<body>
+<body class="corpo">
+
     <header id="cabecalho">
 
         <div class="nav-top">
@@ -43,6 +44,9 @@
         </div>
 
         <nav id="menu">
+
+            <i class="nav-bar fa-solid fa-bars"></i>
+
             <ul>
                 <li><a href="./index.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
                 <li><a href="#"><i class="fa-solid fa-user"></i>Personagens</a>
@@ -59,22 +63,49 @@
                 <li><a href="#"><i class="fa-solid fa-video"></i>Filmes</a></li>
                 <li><a href="#"><i class="fa-solid fa-palette"></i>Animações</a></li>
             </ul>
+
         </nav>
+
     </header>
+
+    <nav id="sub-menu">
+        <ul>
+            <li><a href="./index.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+
+                <details>
+                    <summary id="details-person"><i class="fa-solid fa-user"></i>Personagens</summary>
+                <ul>
+                    <li><a id="itemfred" href="./paginas/fred.html">Fred</a></li>
+                    <li><a id="itemdaph" href="#">Daphne</a></li>
+                    <li><a id="itemvelma" href="#">Velma</a></li>
+                    <li><a id="itemshaggy" href="#">Salsicha</a></li>
+                    <li><a id="itemscooby" href="#">Scooby-Doo</a></li>
+                    <li><a id="outros" href="#">Outros</a></li>
+                </ul>
+            </details>
+
+            <li><a href="#"><i class="fa-solid fa-book-open"></i>História</a></li>
+            <li><a href="#"><i class="fa-solid fa-video"></i>Filmes</a></li>
+            <li><a href="#"><i class="fa-solid fa-palette"></i>Animações</a></li>
+
+        </ul>
+    </nav>
+
+
+    <div class="fechar-menu"></div>
 
     <!------------------------------------->
 
 
     <div class="banner">
 
-
         <img class="imagem-fundo" src="./src/imagens/scooby-doo/walpaper/scooby-doo.jpg">
 
         <div class="gradient"></div>
 
-        <h2>SCOOBY-DOO !!</h2>
+        <!-- <h2>SCOOBY-DOO !!</h2> -->
 
-        <hr>
+        <!-- <hr> -->
 
     </div>
 
@@ -280,6 +311,9 @@
         </footer>
 
     </footer>
+
+    <script src="./src/js/index.js"></script>
+
 
 </body>
 
